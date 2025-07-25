@@ -1,6 +1,6 @@
 const API_KEY = 'b36eadf70066fd3f1456d6d221a76e27';
-    const BASE_URL = 'https://apimocine.vercel.app/movie/';
-    const IMG_URL = 'https://apimocine.vercel.app/tv/';
+    const BASE_URL = 'https://api.themoviedb.org/3';
+    const IMG_URL = 'https://image.tmdb.org/t/p/original';
     let currentItem;
 
     async function fetchTrending(type) {
